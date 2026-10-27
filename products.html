@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products | Arn's Food and More Enterprise</title>
+<meta name="description" content="Browse the full HELLO product catalog shito powders, pure spices, kitchen staples and wellness products, all from Arn's Food and More Enterprise.">
+<link rel="icon" href="assets/img/logo.jpg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-row">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><img src="assets/img/logo.jpg" alt="Arn's Food and More Enterprise logo"></span>
+      <span class="brand-text"><strong>Arn's Food</strong><span>and More Enterprise</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="wholesale.html">Partnership / Wholesale</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="wa-pill" data-wa-message="Hello Arn's Food and More Enterprise, I'd like to place an order." href="#">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.3 4.86L2 22l5.36-1.4a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.18.83.85-3.1-.2-.32a8.22 8.22 0 0 1-1.26-4.4c0-4.54 3.7-8.24 8.3-8.24 4.58 0 8.3 3.7 8.3 8.24 0 4.55-3.72 8.32-8.31 8.32z"/></svg>
+        <span class="wa-label">WhatsApp Us</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>The HELLO Product Catalog</h1>
+    <p>14 HELLO-branded products across four categories from our FDA-approved flagship shito powder to spices, staples and wellness products in development. Tap any product for full specs, pricing and ordering.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">All Products</button>
+      <button class="filter-btn" data-filter="shito">Shito Powders</button>
+      <button class="filter-btn" data-filter="spices">Pure Spices</button>
+      <button class="filter-btn" data-filter="staples">Seasoning &amp; Kitchen Staples</button>
+      <button class="filter-btn" data-filter="wellness">Wellness &amp; Staples</button>
+    </div>
+    <div class="product-grid" data-product-grid></div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container two-col">
+    <div>
+      <span class="eyebrow">Trade &amp; Bulk Enquiries</span>
+      <h2>Buying for a Store, Restaurant or Event?</h2>
+      <p>We work with supermarkets, African food shops abroad, restaurants, caterers and event vendors with FDA-approved stock, reliable supply and leak-proof, export-ready packaging.</p>
+      <a class="btn btn-primary" href="wholesale.html">Go to Wholesale Enquiries</a>
+    </div>
+    <div class="img-col">
+      <img src="assets/img/lifestyle-family.jpg" alt="Family enjoying a meal seasoned with HELLO products">
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark"><img src="assets/img/logo.jpg" alt="Arn's Food logo"></span>
+          <strong>Arn's Food and More<br>Enterprise</strong>
+        </div>
+        <p style="font-size:14px;">Proudly creating convenient food products from Ghana, for Ghana and beyond.</p>
+        <span class="footer-fda">✓ FDA/SC 26-1041 Approved</span>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Categories</h5>
+        <ul>
+          <li><a href="products.html">Shito Powders</a></li>
+          <li><a href="products.html">Pure Spices</a></li>
+          <li><a href="products.html">Kitchen Staples</a></li>
+          <li><a href="products.html">Wellness &amp; Staples</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Stay in the loop</h5>
+        <p style="font-size:13.5px;">Get updates on new HELLO products and promotions.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); this.reset(); alert('Thanks for subscribing!');">
+          <input type="email" required placeholder="you@example.com" aria-label="Email address">
+          <button class="btn btn-gold btn-sm" type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Arn's Food and More Enterprise. All rights reserved.</span>
+      <span>Tesano, Accra · Ho, Volta Region · Ghana</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" data-wa-message="Hello Arn's Food and More Enterprise, I'd like to chat." href="#" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.3 4.86L2 22l5.36-1.4a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.18.83.85-3.1-.2-.32a8.22 8.22 0 0 1-1.26-4.4c0-4.54 3.7-8.24 8.3-8.24 4.58 0 8.3 3.7 8.3 8.24 0 4.55-3.72 8.32-8.31 8.32z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
